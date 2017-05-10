@@ -5,6 +5,8 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { CovalentCoreModule } from '@covalent/core';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -12,7 +14,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    CovalentCoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
